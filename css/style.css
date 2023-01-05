@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+.btn-primary{
+    color: aliceblue;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius:4px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    gap: 25px;
+}
+/* header section  */
+.navigration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 120PX;
+    background-color: rgb(255, 255, 255);
+}
+.navigration ul{
+    display: flex;
+    align-items: center;
+}
+.navigration li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.said-nav{
+    display: flex;
+    gap: 25px;
+}
+.header{
+    background-color: rgba(255, 166, 0, 0.097);
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.hlw{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section-items{
+    
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.discription{
+    font-size: 20px;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+
+
+/* about-info-title */
+.about{
+    padding: 100px 50px;
+    background-color: #283747;
+    display: flex;
+    gap: 40px;
+}
+.about-info{
+    padding: 50px 0;
+}
+.about-info-title{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.about-discription{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.btn-info{
+    color: orange;
+    background-color: rgb(253, 253, 253);
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid orange;
+    border-radius:4px;
+}
+
+.about-img img{
+    height: 300px;
+}
